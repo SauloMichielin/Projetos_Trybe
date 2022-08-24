@@ -1,0 +1,28 @@
+body {
+background-color: rgb(253, 251, 251);
+}
+#cabecalho {
+position: fixed;
+top: 0px;
+margin: 2px;
+display: block;
+background-color: green;
+}
+.sessao {
+display: inline-block;
+padding: 2%;
+}
+.lado-esquerdo {
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+color: blue;
+letter-spacing: 1px;
+display: inline-block;
+}
+
+.lado-direito {
+display: inline-block;
+}
+#rodape {
+border: 2px;
+}

@@ -1,0 +1,123 @@
+/* ____       _      _   _   _        ___
+  / ___|     / \    | | | | | |      / _ \
+  \___ \    / _ \   | | | | | |     | | | |
+   ___) |  / ___ \  | |_| | | |___  | |_| |
+  |____/  /_/   \_\  \___/  |_____|  \___/  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 167, 145);
+  width: 1050px;
+  height: 90px;
+}
+
+.trybewarts-header-logo {
+  width: 50px;
+}
+
+.formulario {
+  display: flex;
+  margin-top: 5px;
+  align-self: flex-start;
+  height: 86px;
+}
+
+.trybewarts-login {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.trybewarts-login input button {
+  margin-top: 5px;
+}
+
+#trybewarts-header-title {
+  align-self: center;
+}
+
+main {
+  display: flex;
+}
+
+hr {
+  background-color: red;
+  border: 0;
+  height: 2px;
+  width: 100%;
+}
+
+#evaluation-form {
+  width: 675px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#inputs {
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+#line {
+  display: flex;
+}
+
+#labels {
+  align-items: flex-start;
+  width: 337.5px;
+}
+
+#labels input {
+  margin-top: 10px;
+}
+
+#checkbox {
+  display: flex;
+  flex-flow: column wrap;
+  width: 337.5px;
+}
+
+.subject {
+  padding: 12px;
+  margin: 10px;
+
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#avaliacao {
+  margin: 15px;
+  display: flex;
+}
+
+#avaliacao input {
+  margin: 0 5px;
+}
+
+#textarea {
+  width: 675px;
+  resize: none;
+}
+
+#counter {
+  text-align: end;
+}
+
+/* #evaluation-form {
+  display: none;
+} */
+
+#form-data {
+  display: none;
+  flex-direction: column;
+}
